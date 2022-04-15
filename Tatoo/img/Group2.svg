@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 66" width="68" height="66">
+	<title>Новый проект</title>
+	<defs>
+		<image width="96" height="96" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAyNSIgaWQ9IkxheWVyXzI1Ij48cGF0aCBkPSJNMjguNDEsNy44MmEzLDMsMCwwLDAtNC4yNCwwTDEzLDE5YTEsMSwwLDAsMS0xLjQxLDBMOC40NywxNS44NkEzLDMsMCwxLDAsNC4yMiwyMC4xbDYsNmgwYTMsMywwLDAsMCw0LjI0LDBsMTQtMTRhMywzLDAsMCwwLDAtNC4yNFpNMjcsMTAuNjVsLTE0LDE0YTEsMSwwLDAsMS0xLjQxLDBsLTYtNmExLDEsMCwwLDEsMC0xLjQxLDEsMSwwLDAsMSwxLjQxLDBsMy4xMywzLjEzYTMsMywwLDAsMCw0LjI0LDBMMjUuNTgsOS4yNGExLDEsMCwwLDEsMS40MSwwLDEsMSwwLDAsMSwwLDEuNDFaIi8+PC9nPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="user_interface_basic_essential_check_list_ux_checklist_yes_agree_icon_219916" href="#img1" transform="matrix(0.708,0,0,0.708,0,0)"/>
+</svg>

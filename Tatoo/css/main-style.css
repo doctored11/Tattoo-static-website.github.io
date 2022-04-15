@@ -1,0 +1,992 @@
+@font-face {
+    font-family: 'Muller1';
+    src: url('../fonts/MullerThinDEMO.woff');
+    src: local('Muller Thin DEMO'), local('MullerThinDEMO'), url('../fonts/MullerThinDEMO.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.woff');
+    src: local('MullerRegular'), local('MullerRegular'), url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Bold';
+    src: url('../fonts/MullerExtraBoldDEMO.eot');
+    src: local('Muller ExtraBold DEMO'), local('MullerExtraBoldDEMO'), url('../fonts/MullerExtraBoldDEMO.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #b82a11;
+    --dark-active-color: #722517;
+    --main-fon: rgb(255, 255, 255);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(19, 1, 1);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-card {
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'Muller', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.card-grid-main {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.booking {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0;
+    min-height: 110px;
+    background: var(--main-fon);
+    padding: 28px 31px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.booking .buttons .button:last-child {
+    display: inline-block;
+    min-width: 78px;
+    max-width: 110px;
+    margin-right: 0;
+    padding: 15px;
+    height: 100%;
+}
+
+.booking .buttons {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.booking .list-reset {
+    width: 876px;
+}
+
+.button-cell {
+    position: relative;
+}
+
+.input-box {
+    min-width: 100%;
+    max-width: 100%;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    max-height: 17px;
+    border: 0px;
+    overflow: visible;
+}
+
+.input-text {
+    width: 100%;
+    max-width: 160px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.cell:nth-child(1) {
+    width: 189px;
+    padding-left: 0px;
+}
+
+.cell:nth-child(2) {
+    width: 190px;
+}
+
+.cell:nth-child(3) {
+    width: 175px;
+}
+
+.cell:nth-child(4) {
+    width: 161px;
+}
+
+.cell:nth-child(5) {
+    width: 161px;
+}
+
+.cell:nth-child(6) {
+    width: 189px;
+    padding-left: 0px;
+}
+
+.cell:nth-child(7) {
+    width: 190px;
+}
+
+.cell:nth-child(8) {
+    width: 175px;
+}
+
+.cell:nth-child(9) {
+    width: 161px;
+}
+
+.cell:nth-child(10) {
+    width: 161px;
+}
+
+.cell:nth-child(9) input {
+    border-bottom: 1px #CCCCCC solid;
+}
+
+.cell:nth-child(10) input {
+    border-bottom: 1px #CCCCCC solid;
+}
+
+.cell-box {
+    background: var(--main-fon);
+    padding: 40px 40px 70px 40px;
+    border-radius: 15px;
+}
+
+.booking .buttons .button {
+    display: inline-block;
+}
+
+.booking .card-grid {
+    margin-bottom: 0;
+}
+
+.cell p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.cell {
+    box-sizing: inherit;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid #E1E1E1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.ylink {
+    display: inline-block;
+    color: #b43c27;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    overflow: hidden;
+}
+
+.ylink {
+    background: no-repeat url(../img/Rectangle\ 2smallArrow.svg);
+    background-position: right;
+    padding-right: 12px;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.card2 .ylink:nth-child(1) {
+    display: block;
+    /*width: 75%;*/
+    background-position: right;
+    max-width: 400px;
+}
+
+.link {
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--main-color);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header-container .link {
+    padding: 10px;
+    padding-left: 31px;
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 75px;
+    /* 40px - визуально не соответствует макету(  */
+    font-family: 'Muller';
+    line-height: 1.5;
+    font-size: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--main-fon);
+}
+
+.heading-date {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    /* 40px - визуально не соответствует макету(  */
+    font-family: 'Muller';
+    line-height: 1.5;
+    font-size: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.small-text {
+    margin: 0;
+    font-family: 'Muller', Arial, sans-serif;
+    font-style: bold;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--main-fon);
+}
+
+.card-small-text {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.card-complexity {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 200%;
+    color: #666666;
+}
+
+.section-offset {
+    margin-bottom: 70px;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.header-container {
+    align-items: center;
+    position: relative;
+}
+
+.header-container:last-child {
+    padding: 27px 0px 27px 0px;
+    border-radius: 15px;
+    background-color: var(--main-fon);
+}
+
+.number {
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+    max-width: 235px;
+    max-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 0;
+    margin-right: 40px;
+}
+
+.hight-header {
+    margin-bottom: 30px;
+}
+
+.button {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--main-color);
+    background-color: var(--main-fon);
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 160px;
+}
+
+.cell-box .heading {
+    margin-bottom: 19px;
+    padding-left: 0;
+}
+
+.buttons {
+    margin: 0;
+    margin-left: auto;
+}
+
+.buttons .button:last-child {
+    margin-right: 65px;
+    width: 160px;
+}
+
+.button:first-child {
+    margin-right: 60px;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    padding-left: 45px;
+    max-width: 710px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.nav-item {
+    max-width: 120px;
+    padding: 2px;
+    max-height: 50px;
+    overflow: hidden;
+    hyphens: auto;
+    color: #666;
+}
+
+.maincard:first-child {
+    margin-bottom: 23px;
+}
+
+.colum {
+    margin-right: 23px;
+    width: 573px;
+}
+
+.card2:not(:nth-child(2n)) {
+    margin-right: 23px;
+}
+
+.card2:first-child {
+    margin-bottom: 23px;
+    background: no-repeat url(../img/serv1.png);
+}
+
+.card2:nth-child(2) {
+    background: no-repeat url(../img/serv2.png);
+    margin-bottom: 23px;
+}
+
+.card2:nth-child(3n) {
+    background: no-repeat url(../img/serv3.png);
+}
+
+.card2:nth-child(4n) {
+    background: no-repeat url(../img/serv4.png);
+}
+
+.card2 {
+    width: 573px;
+    min-height: 330px;
+    border-radius: 15px;
+    padding: 191px 126px 50px 45px;
+    position: relative;
+}
+
+.card4 {
+    width: 275px;
+    min-height: 275px;
+    border-radius: 15px;
+    padding: 116px 42px 41px 45px;
+}
+
+.card4:nth-child(1n) {
+    background: no-repeat url(../img/bathtub.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(2n) {
+    background: no-repeat url(../img/Group2.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(3n) {
+    background: no-repeat url(../img/Group3.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(4n) {
+    background: no-repeat url(../img/Group4.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(5n) {
+    background: no-repeat url(../img/Group5.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(6n) {
+    background: no-repeat url(../img/reception.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(7n) {
+    background: no-repeat url(../img/Group7.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:nth-child(8n) {
+    background: no-repeat url(../img/Group8.svg);
+    background-position: top 40px left 45px;
+}
+
+.card4:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+
+.small-card:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+
+.small-card {
+    margin-bottom: 23px;
+}
+
+.card3 {
+    margin: 0;
+    margin-bottom: 23px;
+    width: 374px;
+    min-height: 440px;
+    border-radius: 15px;
+    padding: 238px 46px 54px 45px;
+}
+
+.card3:nth-child(1) {
+    background: no-repeat url(../img/hotel1.png);
+}
+
+.card3:nth-child(2) {
+    background: no-repeat url(../img/hotel2.png);
+}
+
+.card3:nth-child(3) {
+    background: no-repeat url(../img/hotel3.png);
+}
+
+.card3:nth-child(4) {
+    background: no-repeat url(../img/hotel4.png);
+}
+
+.card3:nth-child(5) {
+    background: no-repeat url(../img/hotel5.png);
+}
+
+.card3:nth-child(6) {
+    background: no-repeat url(../img/hotel6.png);
+}
+
+.card3:nth-child(7) {
+    background: no-repeat url(../img/hotel7.png);
+}
+
+.card3:nth-child(8) {
+    background: no-repeat url(../img/hotel8.png);
+}
+
+.card-grid .card3:last-child {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding: 27px 59px 27px 54px;
+    background-image: url(../img/41Fullcard.jpg);
+}
+
+.card3:not(:nth-child(3n)) {
+    margin-right: 23px;
+}
+
+.second-text {
+    padding-top: 15px;
+    margin: 0;
+    margin-bottom: 47px;
+    color: var(--main-fon);
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.card3 .gray-text {
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.full-card {
+    width: 573px;
+    height: 258px;
+    padding: 40px;
+    display: block;
+    border-radius: 15px;
+}
+
+.full-card:first-child {
+    background: linear-gradient(to left, transparent, rgba(79, 79, 116, 0.671)), no-repeat url("../img/Rectangle\ 141Mald.jpg");
+}
+
+.full-card:not(:nth-child(2n)) {
+    margin-right: 23px;
+}
+
+.card-name {
+    margin: 0;
+    font-family: 'Muller Bold';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--main-fon);
+    max-height: 200px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.line .full-card .card-name:first-child {
+    max-height: 90px;
+}
+
+.card-grid-main .maincard:last-child {
+    margin-top: 0;
+    height: 540px;
+    top: 90px;
+}
+
+.big-card {
+    padding: 211px 234px 41px 40px;
+    background: no-repeat url("../img/33\ 1NomLux.jpg");
+}
+
+.big-card .card-name {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.big-card .gray-text {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.card-grid-main div .maincard:nth-child(2n) {
+    margin-bottom: 23px;
+    height: 258px;
+    background: linear-gradient(to left, transparent, rgba(79, 79, 116, 0.671)), no-repeat url("../img/Rectangle\ 142HotTor.jpg");
+}
+
+.block {
+    width: 888px;
+}
+
+.card:nth-child(1n) {
+    background-color: var(--main-fon);
+}
+
+.gray-text {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.header-container .link {
+    min-width: 177px;
+    max-height: 36px;
+    text-align: right;
+    background: no-repeat url(../img/Vectorarrow.svg);
+    background-position: left 5px top 50%;
+}
+
+.white-link {
+    display: inline-block;
+    align-items: flex-end;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 200%;
+    color: #000000;
+    background: no-repeat url(../img/2whitesmallarrow.svg);
+    width: 261px;
+    background-position: right;
+    bottom: 27px;
+    max-height: 40px;
+    max-width: 275px;
+}
+
+.white-link::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.full-card .ylink {
+    position: relative;
+}
+
+.ylink::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.white-link:hover {
+    color: var(--main-color);
+}
+
+.contact-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    min-height: 618px;
+    width: 1168px;
+    background: var(--main-fon);
+    padding: 44px 746px 46px 46px;
+    border-radius: 15px;
+    position: relative;
+    background: white no-repeat url(../img/Layer\ 2\ 1bigladoona.jpg);
+    background-position: right 44px top 44px;
+    background-size: 653px 528px;
+}
+
+.contact-cell {
+    margin: 0;
+    padding-bottom: 23px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.contact-cell:not(:nth-child(2n)) {
+    margin-right: 47px;
+    width: 98px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: 0;
+}
+
+.contact-cell p {
+    margin: 0;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.contact-cell:nth-child(2n) {
+    width: 229px;
+}
+
+.second-ul {
+    border-bottom: #C4C4C4 1px solid;
+}
+
+.second-ul a {
+    display: block;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-color);
+}
+
+.card-grid .card-grid:last-child {
+    margin-bottom: 0;
+}
+
+.contact-block .button {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--main-color);
+    padding: 20px;
+    max-width: 205px;
+    min-height: 36px;
+}
+
+.footer-ul {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 180px;
+}
+
+.footer-ul:nth-child(2n) {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 360px;
+}
+
+.footer-ul:nth-child(2n) .footer-cell {
+    margin-bottom: 15px;
+}
+
+.footer-box {
+    max-width: 100%;
+    display: flex;
+    min-height: 178px;
+    margin-bottom: 50px;
+}
+
+.footer-ul:first-child {
+    margin-right: 100px;
+    width: 320px;
+}
+
+.footer-cell {
+    color: var(--main-fon);
+    font-size: 16px;
+    line-height: 190%;
+}
+
+.footer {
+    background: no-repeat url(../img/1sun.png);
+    background-position: right 175px bottom;
+    background-color: #333333;
+    min-height: 341px;
+    padding: 45px 50px;
+    border-radius: 15px;
+}
+
+.footer a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-color)
+}
+
+.target-link {
+    min-width: 120px;
+    padding: 2px;
+    max-width: 180px;
+    max-height: 25px;
+}
+
+.footer-ul .footer-cell:nth-child(2) .target-link {
+    min-width: 146px;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+
+.footer-ul .footer-cell:nth-child(3) .target-link {
+    min-width: 120px;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+
+.link-to-mess {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.mess-ico {
+    max-width: 25px;
+    max-height: 25px;
+    margin-bottom: 20px;
+    background: no-repeat;
+}
+
+.section-offset:last-child {
+    margin-bottom: 20px;
+}
+
+.contact-block .card-grid .card-grid {
+    margin-bottom: 25px;
+}
+
+
+/* ------------------------------------------- */
+
+body .button:hover,
+body .button:focus {
+    background-color: var(--main-color);
+    color: var(--main-fon);
+    border: var(--main-color) 1px solid;
+    transition: color 0.4s linear, background-color 0.4s ease;
+}
+
+body .button:active {
+    background-color: var(--dark-active-color);
+    color: var(--main-fon);
+    border-color: var(--dark-active-color) 1px solid;
+    transition: color 0.4s linear, background-color 0.4s ease;
+}
+
+.mess-ico:hover path,
+.mess-ico:focus path {
+    fill: var(--main-color);
+    transition: fill 0.4s;
+}
+
+.mess-ico:active path {
+    fill: var(--dark-active-color);
+    transition: fill 0.4s;
+}
+
+.number:hover,
+.number:focus,
+.nav-item:focus,
+.nav-item:hover {
+    color: var(--main-color);
+    transition: color 2s linear;
+}
+
+.number:focus,
+.nav-item:focus {
+    border: var(--main-color) 1px solid;
+}
+
+.header-container .link:hover,
+.target-link:hover,
+.ylink:hover {
+    Filter: brightness(1.8) contrast(.7);
+    transition: filter 1s;
+}
+
+.header-container .link:focus,
+.target-link:focus {
+    border: var(--main-color) 1px solid;
+}
+
+.target-link:hover html {
+    box-sizing: border-box;
+}
+
+.number:active,
+.header-container .link:active,
+.target-link:active,
+.nav-item:active {
+    color: var(--dark-active-color);
+    color: 2s linear;
+    border: none;
+    Filter: none;
+}
+
+.ylink:focus {
+    color: var(--main-color);
+}
+
+.ylink:active {
+    color: var(--dark-active-color);
+}
+
+.card2:focus-within,
+.full-card:focus-within {
+    outline: 1px solid var(--main-color) 0.3s;
+    outline-offset: 5px;
+    border-radius: 0;
+}
+
+.full-card .ylink:active {
+    color: var(--main-fon);
+    1s linear;
+    border: none;
+}
+
+
+/* alignment {
+    display: flex;
+}
+ */

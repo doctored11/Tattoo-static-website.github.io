@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 66" width="68" height="66">
+	<title>Новый проект</title>
+	<defs>
+		<image width="96" height="96" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciA1IiBpZD0iTGF5ZXJfNSI+PHBhdGggZD0iTTE3Ljg2LDYuNWE4Ljg1LDguODUsMCwwLDAtOCw1LjE5LDUuMDksNS4wOSwwLDAsMC0xLjk0LS40QTUuMTUsNS4xNSwwLDEsMCwxMC4xOSwyMWE4Ljg0LDguODQsMCwwLDAsNy42OCw0LjQ3LDEsMSwwLDAsMCwxLTFWNy41QTEsMSwwLDAsMCwxNy44Niw2LjVabS0xMCwxMy4xYTMuMTUsMy4xNSwwLDAsMSwwLTYuMywzLjEsMy4xLDAsMCwxLDEuMzIuM0E4Ljg0LDguODQsMCwwLDAsOSwxNS4zNXYxLjMxYTguODEsOC44MSwwLDAsMCwuMzgsMi41NUEzLjEzLDMuMTMsMCwwLDEsNy44NywxOS42Wm05LDMuODJBNi44NSw2Ljg1LDAsMCwxLDExLDE2LjY1VjE1LjM1YTYuODUsNi44NSwwLDAsMSw1Ljg0LTYuNzdaIi8+PHBhdGggZD0iTTI1LjgxLDE2LjQ1bDIuNC0yLjRhMSwxLDAsMCwwLTEuNDEtMS40MUwyNC4zOSwxNSwyMiwxMi42NGExLDEsMCwwLDAtMS40MSwxLjQxbDIuNCwyLjQtMi40LDIuNEExLDEsMCwxLDAsMjIsMjAuMjdsMi40LTIuNCwyLjQsMi40YTEsMSwwLDAsMCwxLjQxLTEuNDFaIi8+PC9nPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="multimedia_music_audio_sound_speaker_volume_essential_mute_ui_icon_219956" href="#img1" transform="matrix(0.708,0,0,0.708,0,-1)"/>
+</svg>
