@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 12" width="21" height="12">
+	<title>Vectorarrow</title>
+	<defs>
+		<image  width="21" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAMCAMAAAC6EAb3AAAAAXNSR0IB2cksfwAAAa1QTFRFAAAAvFkrvFkruUwptUAnuEkpulQrulIquE0pu1krulUqt0gotD4nu1Yru1YruU8qtUAotUAouEoquEwpuE0pulUrt0gptD0nuU8puU8pulMpulIptT8ntT4nt0gouEspu1crulUruEoptD4nt0Yot0YouEwpuVApulIptT4ntkMot0kpulYrulIquE4ptT8ntD0ntD4ntT8ntT4otUEotkUpt0kptkUptUAotD4ntUAnt0UouEoptT4ntDwntkMouEwquU8puU4ptDwntDwntDwntDwntDwntD0ntD4ntD0ntDwntD0ntT0ouE0puE0ptT4ntD0ntD4ntT8ntT4otUEot0kptkUptUAotD4ntkQouEkpt0gptT8ntkYouVAqulEquEwptD4nuEoouEoou1Qqu1YquEkptUMot0kpu1crulMquEwptT4ntDwnulEqulEqulIquUwptT4nt0gpuEspulQqtkMotDwnu1Yru1YruU4qtT4nt0Upt0gpuEopvWEsvFsrt0gptDwnvForvForuEsptT8ot0QpuEsptkUowGwuvmMstUEotDwnqGh6JwAAAI90Uk5TABQJX9p4LCEGIQPM/A8HjvLwnFIdBsz9BgEhuff3p1MyE839AgEAE7D735o0E9L+BgcHBgIEBwcHBQEBUPz/2kUq3On89/X69fX2/fz3JeL+CAEEBAQEBgQICBlt+sg7BNf+AQIAKrjUhysF0v0CEQsjqe2ZRRXGBAkOjvasYCMdEssJAhVRzmglGxAmwRFONu7MAAAAw0lEQVR4nGNggAJGJmYWVjZ2Dk4ubh4GOODl4xcQFBIW4RQVE0eISkhKScvIyskrKCopI0RVVNXUNTS1tHV09fQZGAwMjYxNTM3MLSytrG1s7ewdHJ2Aos4urm7uHp4eHm5eXt52dj6+fv4BDAyBQcEhoaZh4RGRUdExsT5x8QmJSQhzk1NS09LFMzKzsnNy8+Ci+QWFRT7FJaVZZeW5FXDRyqpq8ZrauvqGxiblZrhoS2tbe0dnV3N3T28xAxbQx8AAAAugLGniPj9MAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Vectorarrow" href="#img1" x="0" y="0" />
+</svg>

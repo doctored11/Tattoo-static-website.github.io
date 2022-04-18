@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 66" width="68" height="66">
+	<title>Новый проект</title>
+	<defs>
+		<image width="96" height="96" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAzOSIgaWQ9IkxheWVyXzM5Ij48cGF0aCBkPSJNMjYuMTcsNi4yOWExNywxNywwLDAsMS05LjYyLTMsMSwxLDAsMCwwLTEuMTMsMCwxNywxNywwLDAsMS05LjU5LDMsMSwxLDAsMCwwLTEsMWMwLDguNzgsNC4wNiwxNywxMC41OSwyMS40MmExLDEsMCwwLDAsMS4xMiwwQzIzLjEsMjQuMzEsMjcuMTcsMTYuMSwyNy4xNyw3LjI5QTEsMSwwLDAsMCwyNi4xNyw2LjI5Wk0xNiwyNi42N2MtNS40My00LTguODYtMTAuOS05LjE0LTE4LjRBMTksMTksMCwwLDAsMTYsNS4zYTE5LDE5LDAsMCwwLDkuMTYsM0MyNC44OCwxNS43OSwyMS40MywyMi43MSwxNiwyNi42N1oiLz48L2c+PC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="password_essential_protect_safety_secure_shield_protection_security_ui_icon_219928" href="#img1" transform="matrix(0.708,0,0,0.708,0,0)"/>
+</svg>

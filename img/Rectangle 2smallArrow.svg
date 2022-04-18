@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 18" width="11" height="18">
+	<title>Rectangle 2smallArrow</title>
+	<defs>
+		<image  width="11" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAASCAMAAAC6q9RHAAAAAXNSR0IB2cksfwAAAKtQTFRFAAAA/8pl/8pl/79gvEoutkAptT4otDwnuEMqt0EqtkAptD0nuEQrtDwntT4otT0ou0gstT0ntDwnu0kttDwntDwnuUQswFMxuEQqt0Epu0otuEQruEMru0ktu0kttj8pukgstT0ovk4vtj8ptT4ouEMqtj8otT0otDwnwFMxtT0ntT4otDwntDwnukcrtD0ntDwnu0gsv1EwtT8ouEUrtD0nv1AwuUYrtT4oAlGoPAAAADl0Uk5TAAACEP3/+jvr//L86Rf//+D9/9wf/v/J6//c///U+v/67fj90/z+5hv2//78Lvr/8vr2//zp7PzRoAhWcQAAAHRJREFUeJxjYGBkYoABZhZWNnYYh4OTlQsuw83KysML47Dx8QvAZQSF+IRhbBFRPjFxuDIJSVYphDJpGVmYLXLyCopQphKrsgqUqSqkpq4BYWpqaevoQph6+toGIhCmoZC2DlStkbGJKcxkM3MLuJUMzDAGAFenB3UUIZZbAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Rectangle 2smallArrow" href="#img1" x="0" y="0" />
+</svg>
